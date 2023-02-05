@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: monospace;
+}
+
+.password-length-range {
+    -webkit-appearance: none;
+}
+.password-length-range::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: rgb(240 253 244); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
