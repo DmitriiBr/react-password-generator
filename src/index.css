@@ -9,6 +9,7 @@
 .password-length-range {
     -webkit-appearance: none;
 }
+
 .password-length-range::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
